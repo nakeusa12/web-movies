@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow:400,700|Poppins:300,400&display=swap" />
+  <link rel="stylesheet" href="./build/tailwind.css" />
+  <script src="https://kit.fontawesome.com/a565b10ae6.js" crossorigin="anonymous"></script>
+  <title>Tailwind - Movie Production</title>
+</head>
+
+<body class="antialiased bg-black">
+  <header class="header relative lg:overflow-hidden">
+    <div class="absolute inset-0 z-negative lg:opacity-100 opacity-50">
+      <video src="video.mp4" autoplay loop muted class="object-cover w-full h-full"></video>
+    </div>
+
+    <nav class="md:p-3 py-2 px-3 z-10">
+      <div class="container mx-auto md:flex block flex-wrap items-center justify-start">
+        <div class="flex-1 flex items-center justify-between">
+          <a href="#">
+            <img src="logo.webp" alt="logo" />
+          </a>
+          <button data-menu-toggle class="md:hidden outline-none block pr-1">
+            <svg class="fill-current text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+              viewBox="0 0 20 20">
+              <title>menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+          </button>
+        </div>
+        <ul data-menu class="md:flex hidden flex-wrap items-center justify-start text-white">
+          <li class="md:px-6 py-2">
+            <a href="#" class="text-brand">Home</a>
+          </li>
+          <li class="md:px-6 py-2">
+            <a href="#">Stream/Buy</a>
+          </li>
+          <li class="md:px-6 py-2">
+            <a href="#">Coming Soon</a>
+          </li>
+          <li class="md:px-6 py-2">
+            <a href="#">Catalog</a>
+          </li>
+          <li class="md:px-6 py-2">
+            <a href="#">About Us</a>
+          </li>
+          <li class="md:px-6 py-2">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mx-auto lg:mt-56 lg:px-16 px-4 py-4">
+      <div class="md:pl-8 md:border-l border-white">
+        <p class="text-white tracking-wide text-base font-light leading-none">
+          Out now
+        </p>
+        <h1 class="text-white md:text-6xl text-2xl font-bold font-sans m-0 md:leading-none">
+          Knights of Wales
+        </h1>
+        <p class="text-white text-lg md:max-w-lg w-full md:my-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eum
+          animi soluta impedit culpa a iusto sint recusandae enim ut,
+          obcaecati harum voluptatum nostrum qui, praesentium, dolorem magni.
+          Consequuntur, consequatur.
+        </p>
+        <a href="#" class="btn-primary">Stream/Buy</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="container mx-auto my-6 lg:px-16 px-4">
+    <ul class="flex items-center leading-normal text-gray-500 font-alt">
+      <li class="text-gray-300 pr-2">Our latest releases</li>
+      <li class="pr-2">|</li>
+      <li class="pr-2">
+        <a href="#" class="text-brand hover:text-white">Watch All</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="flex items-stretch justify-center mb-10 px-4 overflow-hidden relative">
+    <a href="#" class="relative group block mr-4 flex-shrink-0">
+      <div
+        class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer">
+        <div>
+          <h3 class="text-lg mb-2">30 Yards</h3>
+          <p class="leading-normal">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            vero eos veritatis molestiae, tempore, odit iure voluptates, iusto
+            laborum excepturi vel hic quaerat id repellat dolorem non
+            cupiditate nisi. Reiciendis!
+          </p>
+        </div>
+      </div>
+      <img src="images/1.jpg" alt="#" />
+    </a>
+
+    <a href="#" class="relative group block mr-4 flex-shrink-0">
+      <div
+        class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer">
+        <div>
+          <h3 class="text-lg mb-2">30 Yards</h3>
+          <p class="leading-normal">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            vero eos veritatis molestiae, tempore, odit iure voluptates, iusto
+            laborum excepturi vel hic quaerat id repellat dolorem non
+            cupiditate nisi. Reiciendis!
+          </p>
+        </div>
+      </div>
+      <img src="images/2.jpg" alt="#" />
+    </a>
+
+    <a href="#" class="relative group block mr-4 flex-shrink-0">
+      <div
+        class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer">
+        <div>
+          <h3 class="text-lg mb-2">30 Yards</h3>
+          <p class="leading-normal">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            vero eos veritatis molestiae, tempore, odit iure voluptates, iusto
+            laborum excepturi vel hic quaerat id repellat dolorem non
+            cupiditate nisi. Reiciendis!
+          </p>
+        </div>
+      </div>
+      <img src="images/3.jpg" alt="#" />
+    </a>
+
+    <a href="#" class="relative group block mr-4 flex-shrink-0">
+      <div
+        class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer">
+        <div>
+          <h3 class="text-lg mb-2">30 Yards</h3>
+          <p class="leading-normal">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            vero eos veritatis molestiae, tempore, odit iure voluptates, iusto
+            laborum excepturi vel hic quaerat id repellat dolorem non
+            cupiditate nisi. Reiciendis!
+          </p>
+        </div>
+      </div>
+      <img src="images/4.jpg" alt="#" />
+    </a>
+
+    <a href="#" class="relative group block mr-4 flex-shrink-0">
+      <div
+        class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer">
+        <div>
+          <h3 class="text-lg mb-2">30 Yards</h3>
+          <p class="leading-normal">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            vero eos veritatis molestiae, tempore, odit iure voluptates, iusto
+            laborum excepturi vel hic quaerat id repellat dolorem non
+            cupiditate nisi. Reiciendis!
+          </p>
+        </div>
+      </div>
+      <img src="images/5.jpg" alt="#" />
+    </a>
+
+    <a href="#" class="relative group block mr-4 flex-shrink-0">
+      <div
+        class="absolute inset-0 bg-black opacity-75 hidden group-hover:flex flex-col justify-end text-white px-4 py-4 cursor-pointer">
+        <div>
+          <h3 class="text-lg mb-2">30 Yards</h3>
+          <p class="leading-normal">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            vero eos veritatis molestiae, tempore, odit iure voluptates, iusto
+            laborum excepturi vel hic quaerat id repellat dolorem non
+            cupiditate nisi. Reiciendis!
+          </p>
+        </div>
+      </div>
+      <img src="images/6.jpg" alt="#" />
+    </a>
+  </div>
+
+  <div class="container mx-auto py-8 font-alt text-white text-center md:px-0 px-4">
+    <div class="text-gray-600 mb-4 md:text-lg text-base">
+      Films <span class="px-1">|</span> TV Shows
+      <span class="px-1">|</span> Creative Development
+    </div>
+    <h2 class="md:text-5xl text-2xl fons-sans font-bold mb-4">
+      About GSL Production
+    </h2>
+    <div class="opacity-75 max-w-md mx-auto">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae id
+      voluptatibus voluptas voluptatem quam quae veniam, enim, et maiores
+      similique eius ab ut sunt odio sed necessitatibus delectus cumque iste.
+    </div>
+    <a href="#" class="text-brand my-2 inline-block">More Info +</a>
+  </div>
+
+  <div class="relative flex flex-wrap items-center video-cta md:py-0 py-10 px-4">
+    <div class="absolute inset-0 w-full h-full z-negative opacity-75">
+      <img src="images/video-bg-image.jpg" alt="" class="object-cover w-full max-w-full h-full" />
+    </div>
+
+    <div class="container mx-auto text-center text-white w-full flex flex-wrap">
+      <h3 class="md:text-5xl text-3xl font-sans font-bold tracking-wide mb-4 w-full leading-tight">
+        Releases Coming Soon
+      </h3>
+      <div class="w-full md:mb-16 mb-6">
+        <a href="#" class="inline-flex items-center justify-center text-white w-auto hover:opacity-75">
+          <i class="far fa-play-circle text-white fill-current text-3xl"></i>
+          <span class="ml-2 pb-1 border-b border-white">Play Video</span>
+        </a>
+      </div>
+      <div class="w-full">
+        <a href="#"
+          class="inline-flex items-center justify-center text-white border bg-transparent px-8 py-3 hover:bg-white hover:text-black md:mt-0 mt-4 rounded">All
+          Videos +</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container mx-auto text-white py-6 md:px-16 px-4">
+    <div class="md:pl-3 md:border-l border-white mb-6">
+      <p class="opacity-75">GSL Newsletter</p>
+      <h3 class="md:text-6xl text-3xl font-sans font-bold mb-4">
+        See it First
+      </h3>
+
+      <form action="#">
+        <div class="flex items-center justify-start flex-wrap">
+          <input type="text" class="text-white border bg-transparent leading-tight md:w-1/3 w-full mr-4 p-3"
+            placeholder="Enter email here" />
+          <input type="submit" class="btn-primary py-3" value="subscribe" />
+        </div>
+      </form>
+    </div>
+
+    <div class="flex items-center justify-start flex-wrap">
+      <p class="opacity-75 text-sm md:mb-0 mb-3">&copy; 2020 by Nakeusa</p>
+      <div class="md:ml-4 flex-wrap items-center justify-start">
+        <a href="#" class="mx-2">
+          <i class="fab fa-instagram fill-current text-white opacity-50 hover:opacity-75 w-4 h-4"></i>
+          <i class="fab fa-facebook fill-current text-white opacity-50 hover:opacity-75 w-4 h-4"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- End -->
+  <script src="index.js"></script>
+</body>
+
+</html>
